@@ -8,6 +8,7 @@ import (
 
 	"fmt"
 
+
 )
 
 
@@ -19,6 +20,7 @@ func main() {
 	// flag.String("引数の名前", "デフォルト値", "ヘルプメッセージ")
 
 	var hello = flag.String("hello", "Aoki", "please specify -name flag")
+	var day = flag.Int("day",3,"please specify -day flag")
 
 	flag.Parse()
 
@@ -26,6 +28,7 @@ func main() {
 
 	// fmtパッケージについて ref: https://golang.org/pkg/fmt/
 
-	fmt.Println(*hello,"さん！こんにちは！")
+	fmt.Println(*hello,"さん！こんにちは！",*day,"日ぶりです！")
+	fmt.Println(*hello,"さん！こんにちは！",*day,"日ぶりです！")
 
 }
