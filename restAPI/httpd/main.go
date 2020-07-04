@@ -1,9 +1,9 @@
 package main
 
 import (
-    "../httpd/handler"
+    "github.com/yuaoki/test-aoki/tree/master/restAPI/httpd/handler"
 
-    "../article"
+    "github.com/yuaoki/test-aoki/tree/master/restAPI/article"
 
     "github.com/gin-gonic/gin"
 )
