@@ -3,7 +3,7 @@ package handler
 import (
     "net/http"
 
-    "github.com/yuaoki/test-aoki/tree/master/restAPI/article"
+    "github.com/yuaoki/test-aoki/restAPI/article"
 
     "github.com/gin-gonic/gin"
 )
